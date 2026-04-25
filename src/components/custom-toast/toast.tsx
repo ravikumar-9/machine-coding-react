@@ -1,4 +1,5 @@
 import { AlertCircle, CheckCircle, Info, ShieldX, X } from "lucide-react";
+import React from "react";
 import { useEffect, useRef } from "react";
 
 const Toast = ({
