@@ -16,6 +16,8 @@ import ForgetPassword from "./pages/forgetpassword";
 import Portfolio from "./pages/portfolio";
 import InfiniteScroll from "./pages/infinite-scroll";
 import React from "react";
+import DragAndDrop from "./pages/dragAndDrop";
+import Kanban from "./pages/kanban";
 
 const App = () => {
   const queryClient = new QueryClient();
@@ -42,6 +44,8 @@ const App = () => {
           <Route path="/otp-input" element={<ForgetPassword />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/scroll" element={<InfiniteScroll />} />
+          <Route path="/drag-and-drop" element={<DragAndDrop />} />
+          <Route path="/kanban" element={<Kanban />} />
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>
